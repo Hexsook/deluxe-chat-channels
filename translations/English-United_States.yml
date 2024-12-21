@@ -1,0 +1,22 @@
+# +----------------------------------------------------------------------------+ #
+# |               DeluxeChatChannels - Translation: English (US)               | #
+# +----------------------------------------------------------------------------+ #
+
+#
+# Message prefix
+# TIP: Leave black if you don't want to see
+#
+prefix: "&7&l[&b&lCC&3&lP&7&l] "
+
+plugin-reloaded: "&aDeluxeChatChannels has been reloaded. (Time cost: <time>ms)"
+command-usage: "&cUsage: /<usage>"
+command-no-permission: "&cYou don't have permission to execute this command!"
+channel-no-permission: "&cYou don't have permission to join that channel."
+channel-reload-disband: "&cSince DeluxeChatChannels has been reloaded, all the channels has been disbanded."
+join-channel-message: "&aYou joined the channel &e<channel>&a!"
+join-other-channel-message: "&eYou have been kicked from the previous channel because you joined another channel."
+leave-channel-message: "&cYou left the channel &e<channel>&c!"
+player-join-channel: "&e<player> has joined the channel."
+player-leave-channel: "&e<player> has left the channel."
+send-message-not-in-channel: "&cYou cannot send message to that channel because you aren't in."
+connection-limit-reached: "&cThis channel is full!"

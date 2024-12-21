@@ -1,0 +1,30 @@
+###################################################################################################
+# |                               Ｄｅｌｕｘｅ Ｃｈａｔ Ｃｈａｎｎｅｌｓ                              | #
+# |                                   Author: Hexsook Smith                                     | #
+###################################################################################################
+
+# +---------------------------------------------------------------------------------------------+ #
+# |                                       CHAT SETTINGS                                         | #
+# |                                                                                             | #
+# |  Placeholders:                                                                              | #
+# |  %channel% - Show the channel the player is in.                                             | #
+# |  %player% - Show the name of the player.                                                    | #
+# |  %message% - Show the player's message.                                                     | #
+# |                                                                                             | #
+# +---------------------------------------------------------------------------------------------+ #
+chat:
+  chat-format: "<channel> &3> &f<player>&f: <message>"
+
+# +---------------------------------------------------------------------------------------------+ #
+# |                                  FIXED CHANNEL SETTINGS                                     | #
+# |                                                                                             | #
+# | The settings in this area apply to all channels configured in the channels.yml file.        | #
+# | Channels in channels.yml are fixed channels, which are created when the server starts and   | #
+# | are public channels (may require permissions to join) and cannot be disbanded.              | #
+# |                                                                                             | #
+# +---------------------------------------------------------------------------------------------+ #
+fixed-channel-settings:
+  #
+  # Whether to load fixed channels from channels.yml
+  #
+  enabled: true

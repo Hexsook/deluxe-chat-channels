@@ -1,0 +1,56 @@
+###################################################################################################
+# |                               Ｄｅｌｕｘｅ Ｃｈａｔ Ｃｈａｎｎｅｌｓ                              | #
+# |                                   Author: Hexsook Smith                                     | #
+###################################################################################################
+
+# +---------------------------------------------------------------------------------------------+ #
+# |                                       CHAT SETTINGS                                         | #
+# |                                                                                             | #
+# |  Placeholders:                                                                              | #
+# |  %channel% - Show the channel the player is in.                                             | #
+# |  %player% - Show the name of the player.                                                    | #
+# |  %message% - Show the player's message.                                                     | #
+# | If you installed LuckPerms, you can also use %prefix%.                                      | #
+# |                                                                                             | #
+# +---------------------------------------------------------------------------------------------+ #
+chat:
+  chat-format: "<channel> &3> &f<player>&f: <message>"
+  chat-message-interval: 3 # Seconds
+
+# +---------------------------------------------------------------------------------------------+ #
+# |                                  FIXED CHANNEL SETTINGS                                     | #
+# |                                                                                             | #
+# | The settings in this area apply to all channels configured in the channels.yml file.        | #
+# | Channels in channels.yml are fixed channels, which are created when the server starts and   | #
+# | are public channels (may require permissions to join) and cannot be disbanded.              | #
+# |                                                                                             | #
+# +---------------------------------------------------------------------------------------------+ #
+fixed-channel-settings:
+  #
+  # Whether to load fixed channels from channels.yml
+  #
+  enabled: true
+
+# +---------------------------------------------------------------------------------------------+ #
+# |                                TEMPORARY CHANNEL SETTINGS                                   | #
+# |                                                                                             | #
+# | The settings in this area apply to chat channels that are temporarily created on the        | #
+# | server. To create a temporary channel in game, use /dcc createchannel <name>.               | #
+# |                                                                                             | #
+# +---------------------------------------------------------------------------------------------+ #
+temporary-channel-settings:
+  #
+  # Whether to allow the creation of temporary channels
+  #
+  enabled: true
+
+  #
+  # Limit temporary channels created by one player
+  #
+  limit-creations-per-player: 3
+
+  #
+  # Permission required to create temporary channels
+  # TIP: Leave black if you don't need
+  #
+  creation-permission: "deluxechatchannels.tempchannel"

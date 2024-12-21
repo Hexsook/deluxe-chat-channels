@@ -1,0 +1,33 @@
+# +----------------------------------------------------------------------------+ #
+# |                 DeluxeChatChannels - Fixed channel file                    | #
+# +----------------------------------------------------------------------------+ #
+
+#
+# This is a fixed channel example.
+#
+
+# The unique internal name of the channel, cannot be repeated.
+admin-channel:
+  # The name displayed to player
+  display-name: "&cADMIN"
+
+  # Permission required to join the channel
+  # TIP: Leave blank if you don't need.
+  permission: "chatchannelplus.channels.admin"
+
+  # You can use "/your_command" to join/leave the channel or
+  # use "/your_command [message]" to send message to the channel.
+  commands:
+    - adminchat
+    - ac
+
+  # Limit players to join the channel
+  connection-limit: 10
+
+staff-channel:
+  display-name: "&bSTAFF"
+  permission: "chatchannelplus.channels.staff"
+  commands:
+    - staffchat
+    - sc
+  connection-limit: 10
