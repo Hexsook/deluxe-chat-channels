@@ -21,7 +21,7 @@ You can freely adjust the permissions of each channel, limit the number of conne
 DeluxeChatChannels runs on **BungeeCord** servers and requires **Java 1.8** or above.
 * **First**: download the plugin jar
 * **Next**: put the jar into the server plugin folder
-* **Then**: start the server and you can find the configuratino file at `plugins/DeluxeChatChannels` folder
+* **Then**: start the server and you can find the configuration file at `plugins/DeluxeChatChannels` folder
 * **Finally**: adjust the configuration to your liking, use `/dcc reload` to reload the plugin. 
 * **Done!**
 
