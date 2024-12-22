@@ -3,20 +3,20 @@
 # +----------------------------------------------------------------------------+ #
 
 #
-# Message prefix
-# TIP: Leave black if you don't want to see
+# 消息前缀
+# TIP: 如果不想看到前缀的，可以留空
 #
 prefix: "&7&l[&b&lCC&3&lP&7&l] "
 
-plugin-reloaded: "&aDeluxeChatChannels has been reloaded. (Time cost: <time>ms)"
-command-usage: "&cUsage: /<usage>"
-command-no-permission: "&cYou don't have permission to execute this command!"
-channel-no-permission: "&cYou don't have permission to join that channel."
-channel-reload-disband: "&cSince DeluxeChatChannels has been reloaded, all the channels has been disbanded."
-join-channel-message: "&aYou joined the channel &e<channel>&a!"
-join-other-channel-message: "&eYou have been kicked from the previous channel because you joined another channel."
-leave-channel-message: "&cYou left the channel &e<channel>&c!"
-player-join-channel: "&e<player> has joined the channel."
-player-leave-channel: "&e<player> has left the channel."
-send-message-not-in-channel: "&cYou cannot send message to that channel because you aren't in."
-connection-limit-reached: "&cThis channel is full!"
+plugin-reloaded: "&aDeluxeChatChannels已经重新加载。 (耗时: <time>ms)"
+command-usage: "&c指令用法: /<usage>"
+command-no-permission: "&c你没有使用此命令的权限！"
+channel-no-permission: "&c你没有加入这个频道的权限！"
+channel-reload-disband: "&c因为DeluxeChatChannels已被重载，所以所有的频道都已被解散！"
+join-channel-message: "&a你加入了频道 &e<channel>&a！"
+join-other-channel-message: "&e你已被先前的频道踢出，因为你加入了另一个频道！"
+leave-channel-message: "&c你离开了频道 &e<channel>&c！"
+player-join-channel: "&e<player> 加入了频道。"
+player-leave-channel: "&e<player> 离开了频道。"
+send-message-not-in-channel: "&c你不能向那个频道发送消息，因为你不在该频道中。"
+connection-limit-reached: "&c此频道链接已满！"

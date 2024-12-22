@@ -2,3 +2,4 @@ main: me.hexsook.dcc.DeluxeChatChannels
 name: DeluxeChatChannels
 version: "1.0"
 author: Hexsook
+description: A highly customizable chat channel plugin.
