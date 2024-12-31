@@ -10,7 +10,7 @@
 #### Useful links
 * **Release Page** - release page for the plugin.
     * [**MineBBS**](https://www.minebbs.com/resources/deluxechatchannels.10056/)
-* **Downloads** - Download the latest version. (Unavailable)
+* **Downloads** - Download the latest version.
     * [**MineBBS**](https://www.minebbs.com/resources/deluxechatchannels.10056/download)
 
 ## 🗂️ Why DeluxeChatChannels?
