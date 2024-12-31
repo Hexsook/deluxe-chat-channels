@@ -8,9 +8,10 @@
 </h3>
 
 #### Useful links
-* [**Release Page**]() - release page for the plugin. (Unavailable)
-* [**Documentation**]() - plugin usage guides and configurations. (Unavailable)
-* [**Downloads**]() - Download the latest version. (Unavailable)
+* **Release Page** - release page for the plugin.
+    * [**MineBBS**](https://www.minebbs.com/resources/deluxechatchannels.10056/)
+* **Downloads** - Download the latest version. (Unavailable)
+    * [**MineBBS**](https://www.minebbs.com/resources/deluxechatchannels.10056/download)
 
 ## 🗂️ Why DeluxeChatChannels?
 DeluxeChatChannels is a highly customizable chat channel plugin for BungeeCord servers. 
